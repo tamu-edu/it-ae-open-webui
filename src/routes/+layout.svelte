@@ -205,6 +205,24 @@
 	<link rel="stylesheet" type="text/css" href="/themes/rosepine-dawn.css" /> -->
 </svelte:head>
 
+<div
+	class="flex justify-between w-full h-12 p-3 text-base text-white bg-primary-brand font-work-sans"
+>
+	<div class="flex flex-row">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 384 512"
+			class="m-1 transform fill-current -scale-x-100 size-4"
+		>
+			<path
+				d="M352 128c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32s14.3 32 32 32h146.7L41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L288 205.3V352c0 17.7 14.3 32 32 32s32-14.3 32-32V128z"
+			></path>
+		</svg>
+		<a href="https://www.tamu.edu" target="_blank" class="font-bold uppercase font-work-sans">
+			Texas A&amp;M University
+		</a>
+	</div>
+</div>
 {#if loaded}
 	<slot />
 {/if}
