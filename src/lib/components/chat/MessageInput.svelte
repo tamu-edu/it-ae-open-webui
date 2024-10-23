@@ -232,7 +232,7 @@
 <FilesOverlay show={dragged} />
 
 <div class="w-full font-primary">
-	<div class=" -mb-0.5 mx-auto inset-x-0 bg-transparent flex justify-center">
+	<div class=" -mb-0.5 mx-auto inset-x-0 bg-transparent flex justify-center style="margin-bottom: -5rem;">
 		<div class="flex flex-col px-2.5 max-w-6xl w-full">
 			<div class="relative">
 				{#if autoScroll === false && history?.currentId}
